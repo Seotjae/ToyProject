@@ -13,7 +13,7 @@
 		<!-- 쿼리를 저장한 xml 위치를 지정 (지정된 패키지가 만들어지지 않았으면 오류 발생, 그렇게 때문에 프로젝트 생성 후 패키지를 미리 생성) -->
 		<property name="mapperLocations">
 			<list>
-				<value>classpath:com/toy/blog/dao/*.xml</value>
+				<value>classpath:com/toy/blog/mapper/*/*.xml</value>
 			</list>
 		</property>
 	</bean>

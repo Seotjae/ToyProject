@@ -9,6 +9,7 @@
 </head>
 <body>
 	Hello World
+	${msg}
 </body>
 <script>
 </script>
